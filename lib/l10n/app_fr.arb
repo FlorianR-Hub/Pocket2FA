@@ -130,6 +130,10 @@
     "@save": {
         "description": "Libellé générique d'action d'enregistrement."
     },
+    "requires2fauth": "Pocket2FA nécessite l'accès à un serveur 2FAuth (auto-hébergé ou distant) pour synchroniser les comptes. Consultez le lien du projet 2FAuth ci-dessous pour les options de configuration et d'hébergement.",
+    "@requires2fauth": {
+        "description": "Notice affichée au-dessus du lien du projet 2FAuth dans la boîte de dialogue À propos expliquant que l'application nécessite un serveur 2FAuth et pointant vers le projet pour les options de configuration/hébergement."
+    },
     "totpLabel": "TOTP",
     "@totpLabel": {
         "description": "Libellé de l'option de type OTP basé sur le temps."
@@ -248,9 +252,9 @@
     "@counterHint": {
         "description": "Texte d'aide pour le champ de compteur."
     },
-    "update": "Modifier",
+    "update": "Enregistrer",
     "@update": {
-        "description": "Libellé de l'action de modification dans le formulaire avancé."
+        "description": "Libellé de l'action d'enregistrement dans le formulaire avancé."
     },
     "create": "Créer",
     "@create": {

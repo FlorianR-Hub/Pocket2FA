@@ -107,6 +107,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get save => 'Enregistrer';
 
   @override
+  String get requires2fauth =>
+      'Pocket2FA nécessite l\'accès à un serveur 2FAuth (auto-hébergé ou distant) pour synchroniser les comptes. Consultez le lien du projet 2FAuth ci-dessous pour les options de configuration et d\'hébergement.';
+
+  @override
   String get totpLabel => 'TOTP';
 
   @override
@@ -200,7 +204,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get counterHint => 'La valeur initiale du compteur';
 
   @override
-  String get update => 'Modifier';
+  String get update => 'Enregistrer';
 
   @override
   String get create => 'Créer';
